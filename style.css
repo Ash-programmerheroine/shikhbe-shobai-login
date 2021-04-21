@@ -69,10 +69,13 @@ body{
     font-size: 15px;
  
 }
+.signup-input{
+	width: 96%;
+}
 .fullname{
 	width: 45%;
 	display: inline;
-
+	margin-left: 3px;
 	
 }
 .input-control:focus{
