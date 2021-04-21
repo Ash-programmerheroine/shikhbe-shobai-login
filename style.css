@@ -47,6 +47,7 @@ body{
 	margin: 0 auto;
 
 }
+
 .login-sec p{
 	text-align: center;
 }
@@ -72,6 +73,7 @@ body{
 .signup-input{
 	width: 96%;
 }
+
 .fullname{
 	width: 45%;
 	display: inline;
@@ -87,8 +89,8 @@ body{
 
 .login-btn{
 	margin-top:4%;
-	   border:none;
-	   outline: none; 
+	border:none;
+	outline: none; 
     padding: 14px 46px;
     background: #fb0303;
     color: #fff;
@@ -123,6 +125,6 @@ body{
 	color:gray;
 }
 .terms-privacy{
-color:#8585e8;
+	color:#8585e8;
 
 }
