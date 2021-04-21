@@ -1,0 +1,125 @@
+/*google fonts:poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	/*background: linear-gradient(to bottom right,  #d81c0f, #000);*/
+	background: url(images/red-light-light-black-feedback.jpg);
+ 	background-size: cover;
+	height: 100vh;
+}
+
+/*login form styling*/
+
+.login-sec{
+	width:400px;
+	height:600px;
+	background: #0000008c;
+	color:#fff;
+	margin:150px auto;
+	border-radius: 5px;
+	padding: 20px
+
+}
+.signup-sec{
+	width:600px;
+	height: 850px;
+	padding: 20px 40px;
+}
+.login-sec h1{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+/*image-avater*/
+
+.avater-style{
+	display: block;
+	height: 125px;
+	width: 125px;
+	border-radius:50%;
+	border:3px solid red;
+	margin: 0 auto;
+
+}
+.login-sec p{
+	text-align: center;
+}
+.login-form{
+	margin-top: 30px;
+}
+.form-group label 
+{
+	display:block;
+
+}
+.form-group{
+	margin-bottom: 20px;
+}
+.input-control{
+	    width: 94%;
+    height: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+ 
+}
+.fullname{
+	width: 45%;
+	display: inline;
+
+	
+}
+.input-control:focus{
+	border:1px solid #fb0303;
+	outline: none;
+}
+
+/*Button style*/
+
+.login-btn{
+	margin-top:4%;
+	   border:none;
+	   outline: none; 
+    padding: 14px 46px;
+    background: #fb0303;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+.login-btn:hover{
+	background: gray;
+	cursor:pointer;
+}
+.remember{
+
+	font-size: 12px;
+	
+}
+/*style to get another page link*/
+.login-sec ul{
+	    margin-top: 30px;
+	
+}
+.login-sec ul li{
+	list-style-type: none;
+
+}
+.login-sec ul li a{
+	color:#fb0303;
+	text-decoration:none;
+}
+.login-sec ul li a:hover{
+	color:gray;
+}
+.terms-privacy{
+color:#8585e8;
+
+}
